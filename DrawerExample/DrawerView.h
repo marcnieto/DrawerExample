@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DrawerView : UIView
+@protocol DrawerViewDelegate <NSObject>
+
+- (void)didSelectItem:(NSString *)item
+            withImage:(UIImage *)image;
+
+@end
+
+@interface DrawerView : UIView <UICollectionViewDelegate, UICollectionViewDataSource>
+
+@property (weak, nonatomic) id <DrawerViewDelegate> delegate;
+
+@property (strong, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UILabel *headerLabel;
+@property (weak, nonatomic) IBOutlet UIView *separator;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
+-(void)deselectAllCells;
 
 @end

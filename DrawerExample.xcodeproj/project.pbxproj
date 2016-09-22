@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F207512D1D91FD840051F5A6 /* MenuItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F207512B1D91FD840051F5A6 /* MenuItemCollectionViewCell.m */; };
+		F207512E1D91FD840051F5A6 /* MenuItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F207512C1D91FD840051F5A6 /* MenuItemCollectionViewCell.xib */; };
 		F21B6B861D7A8DDD0095AF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6B851D7A8DDD0095AF26 /* main.m */; };
 		F21B6B891D7A8DDD0095AF26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6B881D7A8DDD0095AF26 /* AppDelegate.m */; };
 		F21B6B8C1D7A8DDD0095AF26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6B8B1D7A8DDD0095AF26 /* ViewController.m */; };
 		F21B6B8F1D7A8DDD0095AF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B6B8D1D7A8DDD0095AF26 /* Main.storyboard */; };
 		F21B6B911D7A8DDD0095AF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21B6B901D7A8DDD0095AF26 /* Assets.xcassets */; };
 		F21B6B941D7A8DDD0095AF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B6B921D7A8DDD0095AF26 /* LaunchScreen.storyboard */; };
-		F21B6B9F1D7A8DDD0095AF26 /* DrawerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6B9E1D7A8DDD0095AF26 /* DrawerExampleTests.m */; };
-		F21B6BAA1D7A8DDD0095AF26 /* DrawerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6BA91D7A8DDD0095AF26 /* DrawerExampleUITests.m */; };
+		F21B6BBA1D7D39160095AF26 /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B6BB91D7D39160095AF26 /* DrawerView.m */; };
+		F21B6BBC1D7D39250095AF26 /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21B6BBB1D7D39250095AF26 /* DrawerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F207512A1D91FD840051F5A6 /* MenuItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemCollectionViewCell.h; sourceTree = "<group>"; };
+		F207512B1D91FD840051F5A6 /* MenuItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemCollectionViewCell.m; sourceTree = "<group>"; };
+		F207512C1D91FD840051F5A6 /* MenuItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		F21B6B811D7A8DDD0095AF26 /* DrawerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21B6B851D7A8DDD0095AF26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F21B6B871D7A8DDD0095AF26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +51,10 @@
 		F21B6B931D7A8DDD0095AF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F21B6B951D7A8DDD0095AF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21B6B9A1D7A8DDD0095AF26 /* DrawerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21B6B9E1D7A8DDD0095AF26 /* DrawerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerExampleTests.m; sourceTree = "<group>"; };
-		F21B6BA01D7A8DDD0095AF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21B6BA51D7A8DDD0095AF26 /* DrawerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21B6BA91D7A8DDD0095AF26 /* DrawerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerExampleUITests.m; sourceTree = "<group>"; };
-		F21B6BAB1D7A8DDD0095AF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21B6BB81D7D39160095AF26 /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
+		F21B6BB91D7D39160095AF26 /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
+		F21B6BBB1D7D39250095AF26 /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				F21B6B831D7A8DDD0095AF26 /* DrawerExample */,
-				F21B6B9D1D7A8DDD0095AF26 /* DrawerExampleTests */,
-				F21B6BA81D7A8DDD0095AF26 /* DrawerExampleUITests */,
 				F21B6B821D7A8DDD0095AF26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +105,12 @@
 			children = (
 				F21B6B871D7A8DDD0095AF26 /* AppDelegate.h */,
 				F21B6B881D7A8DDD0095AF26 /* AppDelegate.m */,
+				F207512A1D91FD840051F5A6 /* MenuItemCollectionViewCell.h */,
+				F207512B1D91FD840051F5A6 /* MenuItemCollectionViewCell.m */,
+				F207512C1D91FD840051F5A6 /* MenuItemCollectionViewCell.xib */,
+				F21B6BB81D7D39160095AF26 /* DrawerView.h */,
+				F21B6BB91D7D39160095AF26 /* DrawerView.m */,
+				F21B6BBB1D7D39250095AF26 /* DrawerView.xib */,
 				F21B6B8A1D7A8DDD0095AF26 /* ViewController.h */,
 				F21B6B8B1D7A8DDD0095AF26 /* ViewController.m */,
 				F21B6B8D1D7A8DDD0095AF26 /* Main.storyboard */,
@@ -120,24 +128,6 @@
 				F21B6B851D7A8DDD0095AF26 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F21B6B9D1D7A8DDD0095AF26 /* DrawerExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				F21B6B9E1D7A8DDD0095AF26 /* DrawerExampleTests.m */,
-				F21B6BA01D7A8DDD0095AF26 /* Info.plist */,
-			);
-			path = DrawerExampleTests;
-			sourceTree = "<group>";
-		};
-		F21B6BA81D7A8DDD0095AF26 /* DrawerExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F21B6BA91D7A8DDD0095AF26 /* DrawerExampleUITests.m */,
-				F21B6BAB1D7A8DDD0095AF26 /* Info.plist */,
-			);
-			path = DrawerExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F21B6B941D7A8DDD0095AF26 /* LaunchScreen.storyboard in Resources */,
+				F207512E1D91FD840051F5A6 /* MenuItemCollectionViewCell.xib in Resources */,
 				F21B6B911D7A8DDD0095AF26 /* Assets.xcassets in Resources */,
 				F21B6B8F1D7A8DDD0095AF26 /* Main.storyboard in Resources */,
+				F21B6BBC1D7D39250095AF26 /* DrawerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F21B6B8C1D7A8DDD0095AF26 /* ViewController.m in Sources */,
+				F207512D1D91FD840051F5A6 /* MenuItemCollectionViewCell.m in Sources */,
 				F21B6B891D7A8DDD0095AF26 /* AppDelegate.m in Sources */,
 				F21B6B861D7A8DDD0095AF26 /* main.m in Sources */,
+				F21B6BBA1D7D39160095AF26 /* DrawerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21B6B9F1D7A8DDD0095AF26 /* DrawerExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21B6BAA1D7A8DDD0095AF26 /* DrawerExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +488,7 @@
 				F21B6BB01D7A8DDD0095AF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21B6BB11D7A8DDD0095AF26 /* Build configuration list for PBXNativeTarget "DrawerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +497,7 @@
 				F21B6BB31D7A8DDD0095AF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21B6BB41D7A8DDD0095AF26 /* Build configuration list for PBXNativeTarget "DrawerExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +506,7 @@
 				F21B6BB61D7A8DDD0095AF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

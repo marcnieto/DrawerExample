@@ -10,4 +10,11 @@
 
 @interface MenuItemCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+-(void)setupLayout;
+-(void)select;
+-(void)deselect;
+
 @end
